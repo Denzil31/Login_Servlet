@@ -1,9 +1,5 @@
 <!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
+
 <html>
     <head>
         <title>Registration Page</title>
@@ -11,14 +7,15 @@ and open the template in the editor.
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-        <h2>Registration Page</h2>
+        <center><h2>Registration Page</h2>
         <form action="ServRegister" method="get">
-            <label>Enter Username</label><input type="text" name="txtName"/><br><br>
-            <label>Enter Password</label><input type="password" name="txtPass"/><br><br>
-            <label>Enter Email ID</label><input type="text" name="txtEmail"/><br><br>
-            <label>Enter Country</label><input type="text" name="txtCountry"/><br><br>
+            <label for="name">Enter Username</label>&nbsp;<input type="text" id="name" name="txtName"/><br><br>
+            <label for="password">Enter Password</label>&nbsp;<input type="password" id="password" name="txtPass"/><br><br>
+            <label for="email">Enter Email ID</label>&nbsp;<input type="text" id="email" name="txtEmail"/><br><br>
+            <label for="country">Enter Country</label>&nbsp;<input type="text" id="country" name="txtCountry"/><br><br>
             <input type="reset" value="Reset">
             <input type="submit" value="Submit">
         </form>
+    </center>
     </body>
 </html>
